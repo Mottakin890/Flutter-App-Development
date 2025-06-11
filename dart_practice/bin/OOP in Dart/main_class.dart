@@ -1,6 +1,7 @@
 import 'constructor_pra.dart';
 import 'this_keyword.dart';
 import 'inheritance.dart';
+import 'method_overriding.dart';
 void main(){
 
   //constructor example
@@ -13,4 +14,9 @@ void main(){
   //Inheritance Example
   var obj3 = Son();
   print(obj3.fatherTitle);
+
+
+  //Method overriding example
+  var obj4 = Sonn();
+  obj4.baperTaka();
 }
