@@ -1,5 +1,6 @@
 import 'constructor_pra.dart';
 import 'this_keyword.dart';
+import 'inheritance.dart';
 void main(){
 
   //constructor example
@@ -9,4 +10,7 @@ void main(){
   var obj2 = ThisKeyword();
   obj2.myFunc();
 
+  //Inheritance Example
+  var obj3 = Son();
+  print(obj3.fatherTitle);
 }
