@@ -1,4 +1,4 @@
-class Father {
+abstract class Father {
   baperTaka(){
     print("Title is Pramanik");
   }
