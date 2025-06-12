@@ -5,6 +5,7 @@ import 'method_overriding.dart';
 void main(){
 
   //constructor example
+  // ignore: unused_local_variable
   var obj = MyNewClass("I am a constructor parameter.");
 
   //this keyword example
